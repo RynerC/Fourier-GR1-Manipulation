@@ -1,0 +1,54 @@
+# ===== Python（GitHub "Python" 模板的常用部分）=====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 本项目：运行时产生的日志和临时数据 =====
+MUJOCO_LOG.TXT
+*.log
+!docs/aurora_results/*.log
+truth*.csv
+sysid_marks.json
+
+# ===== Fourier SDK 镜像 / 压缩包（体积大，且不能再分发）=====
+*.tar
+*.zip
+*.tgz
+*.tar.gz
+
+# ===== 模型：只上传部署和复现需要的，其余是训练中间产物 =====
+checkpoints/*
+!checkpoints/nav_aurora/
+!checkpoints/nav_aurora_bc/
+!checkpoints/manip_aurora_bc/
+checkpoints/**/last.pt
+checkpoints/**/last.npz
+checkpoints/**/stage1.pt
+
+# ===== 视频：只保留展示用的连续任务视频和曲线图 =====
+!videos/aurora_manip_task.mp4
+!videos/*.png
+videos/curve_my_*.png
+
+# ===== Fourier 的内容（SDK、镜像、机器人模型、SDK 文件）：一律不分发 =====
+# 由 scripts/fetch_assets.sh 从 SDK 镜像 / 官方仓库准备
+assets/gr1t2/
+aurora_bridge/lcm_msgs/*
+!aurora_bridge/lcm_msgs/__init__.py
+fourier_aurora_sdk*/

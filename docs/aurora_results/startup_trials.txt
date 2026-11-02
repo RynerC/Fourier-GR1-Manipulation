@@ -1,0 +1,9 @@
+U2 0 waist [-0.001 -0.011 -0.001]
+U2 0 waist [ 0.001 -0.016  0.   ]
+A2 0 waist [ 0.    0.98 -0.  ]
+U3 0 waist [ 0.001  0.904 -0.002]
+done
+01.U2#0 | pdstand: zmin 0.95 drift 0.01m yawΔ +0.03 | released: zmin 0.93 drift 0.02m yawΔ +0.00 | fsm3: zmin 0.90 drift 0.01m yawΔ -0.02 | walk: zmin 0.88 drift 1.86m yawΔ -0.07 | stop: zmin 0.88 drift 0.25m yawΔ -0.01 | torso_in_pd -0.03 | walk vB=(+0.34,+0.00) yawrate -0.012
+02.U2#0 | pdstand: zmin 0.95 drift 0.01m yawΔ -0.03 | released: zmin 0.93 drift 0.02m yawΔ -0.01 | fsm3: zmin 0.90 drift 0.01m yawΔ -0.01 | walk: zmin 0.88 drift 1.85m yawΔ -0.07 | stop: zmin 0.88 drift 0.25m yawΔ -0.01 | torso_in_pd -0.03 | walk vB=(+0.34,+0.00) yawrate -0.011
+03.A2#0 | pdstand: zmin 0.95 drift 0.01m yawΔ -0.00 | released: zmin 0.92 drift 0.03m yawΔ +0.00 | fsm3: zmin 0.90 drift 0.05m yawΔ -0.02 | walk: zmin 0.85 drift 1.78m yawΔ +0.05 | stop: zmin 0.88 drift 0.25m yawΔ -0.01 | torso_in_pd +1.00 | walk vB=(+0.34,+0.00) yawrate -0.015
+04.U3#0 | pdstand: zmin 0.95 drift 0.02m yawΔ +0.01 | released: zmin 0.92 drift 0.03m yawΔ -0.00 | fsm3: zmin 0.90 drift 0.04m yawΔ +0.01 | walk: zmin 0.88 drift 1.87m yawΔ -0.06 | stop: zmin 0.88 drift 0.24m yawΔ -0.01 | torso_in_pd +0.37 | walk vB=(+0.34,+0.01) yawrate -0.012

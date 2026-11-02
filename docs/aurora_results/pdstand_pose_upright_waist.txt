@@ -1,0 +1,20 @@
+waist0 [-5.37308137e-05  5.85415174e-01 -4.87502629e-04]
+>> waist->0 [ 4.0e-03  4.3e-02 -0.0e+00  1.5e+01]
+>> hold upright [ 4.0e-03  3.0e-02 -0.0e+00  1.5e+01]
+>> dz-0.08 [ 3.0e-03  3.5e-02 -0.0e+00  1.5e+01]
+>> dpitch0.2 [-8.0e-02  1.0e-03 -0.0e+00  1.5e+01]
+>> dyaw0.3 [-0.08  0.2  -0.   15.  ]
+>> reach [-0.08   0.2    0.269 15.   ]
+>> payload1kg [-0.08   0.191  0.27  15.   ]
+>> waist lean 0.3 [-0.08   0.207  0.271 15.   ]
+>> back [-0.08   0.21   0.271 15.   ]
+>> end [-1.0e-03  8.0e-03  1.0e-03  1.5e+01]
+waist->0               z 0.923->0.922 pelvis_pitch +0.04->+0.03 torso +0.63->+0.03 yaw -0.00->-0.00 EEz 0.84 zmin 0.92
+hold upright           z 0.922->0.922 pelvis_pitch +0.03->+0.03 torso +0.03->+0.03 yaw -0.00->-0.00 EEz 0.84 zmin 0.92
+dz-0.08                z 0.922->0.839 pelvis_pitch +0.03->+0.00 torso +0.03->-0.00 yaw -0.00->-0.00 EEz 0.75 zmin 0.84
+dpitch0.2              z 0.839->0.839 pelvis_pitch +0.00->+0.20 torso -0.00->+0.20 yaw -0.00->-0.00 EEz 0.75 zmin 0.84
+dyaw0.3                z 0.839->0.839 pelvis_pitch +0.20->+0.20 torso +0.20->+0.20 yaw -0.00->+0.27 EEz 0.75 zmin 0.84
+reach                  z 0.839->0.839 pelvis_pitch +0.20->+0.19 torso +0.20->+0.18 yaw +0.27->+0.27 EEz 1.13 zmin 0.84
+payload1kg             z 0.839->0.839 pelvis_pitch +0.19->+0.21 torso +0.18->+0.22 yaw +0.27->+0.27 EEz 1.09 zmin 0.84
+waist lean 0.3         z 0.839->0.838 pelvis_pitch +0.21->+0.21 torso +0.22->+0.52 yaw +0.27->+0.27 EEz 0.92 zmin 0.84
+back                   z 0.838->0.918 pelvis_pitch +0.21->+0.01 torso +0.52->+0.01 yaw +0.27->+0.00 EEz 1.27 zmin 0.84

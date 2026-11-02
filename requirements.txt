@@ -1,0 +1,8 @@
+mujoco>=3.2
+gymnasium>=0.29
+numpy>=1.24
+torch>=2.0          # 有 NVIDIA GPU：按 https://pytorch.org 选择带 CUDA 的安装命令
+pillow
+imageio
+imageio-ffmpeg
+matplotlib

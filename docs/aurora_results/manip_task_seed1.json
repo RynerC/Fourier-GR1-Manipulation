@@ -1,0 +1,54 @@
+{
+ "manip": "/workspace/proj/checkpoints/manip_aurora_bc/bc.npz",
+ "nav": "/workspace/proj/checkpoints/nav_aurora/best.npz",
+ "on_tray": 3,
+ "n": 3,
+ "fell": false,
+ "time_s": 217.4927077293396,
+ "tasks": [
+  {
+   "object": "red_block",
+   "picked": true,
+   "placed": true
+  },
+  {
+   "object": "green_can",
+   "picked": true,
+   "placed": true
+  },
+  {
+   "object": "blue_box",
+   "picked": true,
+   "placed": true
+  }
+ ],
+ "final": {
+  "red_block": {
+   "pos": [
+    0.385,
+    -0.043,
+    0.872
+   ],
+   "on_tray": true,
+   "tilt": 0.0
+  },
+  "green_can": {
+   "pos": [
+    0.422,
+    0.008,
+    0.872
+   ],
+   "on_tray": true,
+   "tilt": 0.0
+  },
+  "blue_box": {
+   "pos": [
+    0.445,
+    -0.064,
+    0.872
+   ],
+   "on_tray": true,
+   "tilt": 0.0
+  }
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "summary": {
+  "policy": "checkpoints/manip_aurora_bc/bc.npz",
+  "n": 9,
+  "success": 8,
+  "falls": 0,
+  "per_mode": {
+   "抓放": "2/3",
+   "抓起端持": "3/3",
+   "放置": "3/3"
+  },
+  "mean_time_s": 4.177777777777778
+ },
+ "episodes": [
+  {
+   "ep": 0,
+   "mode": 0,
+   "target": "blue_box",
+   "success": false,
+   "steps": 300,
+   "time": 16.227853536605835,
+   "d_goal": 0.030467359583659353,
+   "dropped": false,
+   "fell": false,
+   "tilt": 1.5427826844432084
+  },
+  {
+   "ep": 1,
+   "mode": 1,
+   "target": "red_block",
+   "success": true,
+   "steps": 49,
+   "time": 2.65926194190979,
+   "d_goal": 0.04622881557715086,
+   "dropped": false,
+   "fell": false,
+   "tilt": 6.14998536372874
+  },
+  {
+   "ep": 2,
+   "mode": 2,
+   "target": "green_can",
+   "success": true,
+   "steps": 33,
+   "time": 1.796544075012207,
+   "d_goal": 0.007981854421122946,
+   "dropped": false,
+   "fell": false,
+   "tilt": 0.27904895724945544
+  },
+  {
+   "ep": 3,
+   "mode": 0,
+   "target": "green_can",
+   "success": true,
+   "steps": 82,
+   "time": 4.433257102966309,
+   "d_goal": 0.017810670958725846,
+   "dropped": false,
+   "fell": false,
+   "tilt": 0.17035266218123607
+  },
+  {
+   "ep": 4,
+   "mode": 1,
+   "target": "green_can",
+   "success": true,
+   "steps": 76,
+   "time": 4.136589527130127,
+   "d_goal": 0.04569283421148591,
+   "dropped": false,
+   "fell": false,
+   "tilt": 4.977544414349672
+  },
+  {
+   "ep": 5,
+   "mode": 2,
+   "target": "blue_box",
+   "success": true,
+   "steps": 33,
+   "time": 1.7834570407867432,
+   "d_goal": 0.00846935652809585,
+   "dropped": false,
+   "fell": false,
+   "tilt": 0.0
+  },
+  {
+   "ep": 6,
+   "mode": 0,
+   "target": "green_can",
+   "success": true,
+   "steps": 82,
+   "time": 4.473878622055054,
+   "d_goal": 0.014812832274754205,
+   "dropped": false,
+   "fell": false,
+   "tilt": 0.1879442151264169
+  },
+  {
+   "ep": 7,
+   "mode": 1,
+   "target": "red_block",
+   "success": true,
+   "steps": 68,
+   "time": 3.666496753692627,
+   "d_goal": 0.04546171743823455,
+   "dropped": false,
+   "fell": false,
+   "tilt": 4.01682757331908
+  },
+  {
+   "ep": 8,
+   "mode": 2,
+   "target": "blue_box",
+   "success": true,
+   "steps": 29,
+   "time": 1.6061100959777832,
+   "d_goal": 0.021259586073110636,
+   "dropped": false,
+   "fell": false,
+   "tilt": 0.0
+  }
+ ]
+}
